@@ -71,8 +71,7 @@ The project employs *InceptionV3* (pretrained on ImageNet) with the following mo
 - *TensorFlow*: Model building, image preprocessing, and training.  
 - *NumPy*: Numerical operations and array handling.  
 - *Matplotlib*: Visualizing training accuracy and loss.  
-- *Google Colab*: Development environment with GPU support.  
-- *Kaggle API*: Direct dataset download.  
+- *Google Colab*: Development environment with GPU support.   
 
 ---
 
@@ -105,13 +104,13 @@ The project employs *InceptionV3* (pretrained on ImageNet) with the following mo
 ### Installation  
 1. Clone the repository:    
     ```bash
-    git clone https://github.com/<username>/DentifyCare-ML.git
+    git clone https://github.com/Dentifycare/DentifyCare-ML.git
     cd DentifyCare-ML
    
 
 2. Install dependencies:
    ```bash
-    pip install tensorflow matplotlib numpy kaggle
+    pip install tensorflow matplotlib numpy
 
 ### Running the Code
 1. Preprocess the Dataset
