@@ -1,2 +1,2 @@
-dataset: https://drive.google.com/drive/folders/139hFbLExoB3QEQeYFJRJw_zQt9yjXLE1?usp=sharing
+dataset: https://drive.google.com/file/d/1JMPXA21t9_pqGwGfoZv2IIwDuhmZwX-u/view?usp=sharing
 source: https://www.kaggle.com/datasets/salmansajid05/oral-diseases
