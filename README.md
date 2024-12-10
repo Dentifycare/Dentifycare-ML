@@ -113,33 +113,7 @@ The project employs *InceptionV3* (pretrained on ImageNet) with the following mo
     pip install tensorflow matplotlib numpy
 
 ### Running the Code
-1. Preprocess the Dataset
-    ```bash
-    from tensorflow.keras.utils import image_dataset_from_directory
-    training_dataset = image_dataset_from_directory(
-    "path_to_training_data",
-    image_size=(224, 224),
-    batch_size=32,
-    label_mode="int"
-    )
-
-2. Train the Model
-    ```bash
-    history = model.fit(
-    training_dataset,
-    validation_data=validation_dataset,
-    epochs=50,
-    callbacks=[early_stopping, lr_scheduler]
-    )
-
-3. Evaluate the Model
-    ```bash
-    test_loss, test_accuracy = model.evaluate(test_dataset)
-    print(f"Test Accuracy: {test_accuracy * 100:.2f}%")
-
-4. Save the Model
-    ```bash
-    model.save('model_dentifycare.keras')
+Run All Cell in Notebook `dentifycare.ipynb`
 
 ---
 ## Pretrained Model
